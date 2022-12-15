@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.fragment.SettingsFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/teal_700"
+                android:text="@string/base_settings"
+                android:textColor="#FAF8F8"
+                android:textSize="@dimen/text_size_18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_3dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/work_freq"
+                    android:textSize="@dimen/text_size_20sp" />
+
+                <Spinner
+                    android:id="@+id/spinner_work_freq"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/spinner_background"
+
+                    android:entries="@array/work_freq"
+                    android:minHeight="@dimen/min_height_40dp" />
+
+                <Button
+                    android:id="@+id/button_query_work_freq"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:minHeight="@dimen/min_height_60dp"
+                    android:text="@string/query"
+                    android:textSize="@dimen/text_size_18sp" />
+
+                <Button
+                    android:id="@+id/button_set_work_freq"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:minHeight="@dimen/min_height_60dp"
+                    android:text="@string/set"
+                    android:textSize="@dimen/text_size_18sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_3dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/power"
+                    android:textSize="@dimen/text_size_20sp" />
+
+                <Spinner
+                    android:id="@+id/spinner_power"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/spinner_background"
+                    android:entries="@array/power_arrays"
+                    android:minHeight="@dimen/min_height_40dp" />
+
+                <Button
+                    android:id="@+id/button_query_power"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:minHeight="@dimen/min_height_60dp"
+                    android:text="@string/query"
+                    android:textSize="@dimen/text_size_18sp" />
+
+                <Button
+                    android:id="@+id/button_set_power"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:minHeight="@dimen/min_height_60dp"
+                    android:text="@string/set"
+                    android:textSize="@dimen/text_size_18sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_3dp"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/temperature"
+                    android:textSize="@dimen/text_size_20sp" />
+
+                <EditText
+                    android:id="@+id/editText_temp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:ems="5"
+                    android:focusable="false"
+                    android:textSize="@dimen/text_size_18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="℃"
+                    android:textSize="@dimen/text_size_20sp" />
+
+                <Button
+                    android:id="@+id/button_query_temp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:minHeight="@dimen/min_height_60dp"
+                    android:text="@string/query"
+                    android:textSize="@dimen/text_size_18sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/teal_700"
+                android:text="@string/inventory_settings"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/text_size_18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_3dp"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/checkbox_fastid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fastid" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_3dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sessão:"
+                    android:textSize="@dimen/text_size_20sp" />
+
+                <Spinner
+                    android:id="@+id/spinner_session"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/spinner_background"
+                    android:entries="@array/session_arrays"
+                    android:minWidth="@dimen/min_width_100dp"
+                    android:minHeight="@dimen/min_height_40dp" />
+
+                <Button
+                    android:id="@+id/button_query_session"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:minHeight="@dimen/min_height_60dp"
+                    android:text="@string/query"
+                    android:textSize="@dimen/text_size_18sp" />
+
+                <Button
+                    android:id="@+id/button_set_session"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:minHeight="@dimen/min_height_60dp"
+                    android:text="@string/set"
+                    android:textSize="@dimen/text_size_18sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_3dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_3dp"
+                    android:text="@string/q_value"
+                    android:textSize="@dimen/text_size_20sp" />
+
+                <Spinner
+                    android:id="@+id/spinner_q_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/spinner_background"
+                    android:entries="@array/q_value_arrays"
+                    android:minWidth="@dimen/min_width_100dp"
+                    android:minHeight="@dimen/min_height_40dp" />
+
+                <Button
+                    android:id="@+id/button_query_qvalue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:minHeight="@dimen/min_height_60dp"
+                    android:text="@string/query"
+                    android:textSize="@dimen/text_size_18sp" />
+
+                <Button
+                    android:id="@+id/button_set_qvalue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:minHeight="@dimen/min_height_60dp"
+                    android:text="@string/set"
+                    android:textSize="@dimen/text_size_18sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="112dp"
+                android:layout_margin="@dimen/margin_3dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/inventory_type"
+                    android:textSize="@dimen/text_size_20sp" />
+
+                <Spinner
+                    android:id="@+id/spinner_inventory_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/spinner_background"
+                    android:entries="@array/inventory_type_arrays"
+                    android:minWidth="@dimen/min_width_100dp"
+                    android:minHeight="@dimen/min_height_40dp" />
+
+                <Button
+                    android:id="@+id/button_query_inventory_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:minHeight="@dimen/min_height_60dp"
+                    android:text="@string/query"
+                    android:textSize="@dimen/text_size_18sp" />
+
+                <Button
+                    android:id="@+id/button_set_inventory_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:minHeight="@dimen/min_height_60dp"
+                    android:text="@string/set"
+                    android:textSize="@dimen/text_size_18sp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

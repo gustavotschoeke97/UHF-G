@@ -1,0 +1,69 @@
+Index: app/src/main/res/values/strings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><resources xmlns:tools=\"http://schemas.android.com/tools\">\r\n    <string name=\"app_name\">UHF-G</string>\r\n    <string name=\"navigation_drawer_open\">Open navigation drawer</string>\r\n    <string name=\"navigation_drawer_close\">Close navigation drawer</string>\r\n    <string name=\"nav_header_title\">Android Studio</string>\r\n    <string name=\"nav_header_subtitle\">android.studio@android.com</string>\r\n    <string name=\"nav_header_desc\">Navigation header</string>\r\n    <string name=\"action_settings\">Settings</string>\r\n\r\n    <string name=\"menu_home\">Home</string>\r\n    <string name=\"menu_gallery\">Gallery</string>\r\n    <string name=\"menu_slideshow\">Slideshow</string>\r\n    <!-- TODO: Remove or change this placeholder text -->\r\n    <string name=\"hello_blank_fragment\">Hello blank fragment</string>\r\n\r\n\r\n    <string name=\"invenroty\">invenroty</string>\r\n    <string name=\"frequency_settings\">Frequency Settings</string>\r\n    <string name=\"settings\">Settings</string>\r\n\r\n    <string name=\"sn\">SN</string>\r\n    <string name=\"tag_type\">type</string>\r\n    <string name=\"epc\">EPC</string>\r\n    <string name=\"password\">PASSWORD</string>\r\n    <string name=\"user\">USER</string>\r\n    <string name=\"tag_count\">Count</string>\r\n    <string name=\"rssi\">rssi</string>\r\n    <string name=\"multi_tag\">Multi tag</string>\r\n    <string name=\"tid\">TID</string>\r\n    <string name=\"loop\">loop</string>\r\n    <string name=\"type_6c\">6C</string>\r\n    <string name=\"type_6b\">6B</string>\r\n    <string name=\"type_gb\">GB</string>\r\n    <string name=\"type_gjb\">GJB</string>\r\n    <string name=\"all_tags\">Tag:</string>\r\n    <string name=\"speed\">Speed:</string>\r\n    <string name=\"time\">Time:</string>\r\n    <string name=\"start_inventory\">Start</string>\r\n    <string name=\"stop_inventory\">Stop</string>\r\n    <string name=\"cus_read\">Cus read</string>\r\n    <string name=\"excel_export\">Excel export</string>\r\n    <string name=\"clean\">Clean</string>\r\n    <string name=\"exit_app\">Press again exit app</string>\r\n    <string name=\"module_init_success\">Module init success</string>\r\n    <string name=\"module_init_fail\">Module init fail</string>\r\n\r\n    <string name=\"communication_timeout\">timeout</string>\r\n    <string name=\"unknown\">unknown</string>\r\n    <string name=\"read_write_tag\">Read Write tag</string>\r\n    <string name=\"modify_epc\">modify EPC</string>\r\n    <string name=\"tag_select\">Select tag:</string>\r\n    <string name=\"start_addr\">Addr(word):</string>\r\n    <string name=\"length\">length(word):</string>\r\n    <string name=\"access_password\">Access password(hex):</string>\r\n    <string name=\"data\">write data(hex):</string>\r\n    <string name=\"read_data\">read data(hex):</string>\r\n    <string name=\"read\">Read</string>\r\n    <string name=\"write\">Write</string>\r\n    <string name=\"new_epc\">New EPC(hex):</string>\r\n    <string name=\"please_input_hex_string\">please input hex EPC data</string>\r\n\r\n    <string name=\"lock_tag\">Lock tag</string>\r\n    <string name=\"lock_data\">lock data:</string>\r\n    <string name=\"lock_type\">lock type:</string>\r\n\r\n    <string name=\"lock_tips\">Tips:Please change the password before locking tag</string>\r\n    <string name=\"kill_tag\">Kill tag</string>\r\n    <string name=\"kill_password\">Kill password(hex):</string>\r\n    <string name=\"please_inventory\">Please inventory tag before reading and writing</string>\r\n\r\n    <string name=\"start_address_not_null\">Starting address cannot be empty</string>\r\n    <string name=\"len_not_null\">Length cannot be empty</string>\r\n    <string name=\"access_password_not_null\">Access password cannot be empty</string>\r\n    <string name=\"read_fail\">Read fail</string>\r\n    <string name=\"write_fail\">Write fail</string>\r\n    <string name=\"write_success\">Write success</string>\r\n    <string name=\"filter\">Filter</string>\r\n    <string name=\"please_input_right_access_password\">Please enter a hex password of 4 bytes in length</string>\r\n    <string name=\"please_input_right_write_data\">Please enter hex data with double byte digit length</string>\r\n    <string name=\"please_input_right_epc\">Please enter hex EPC data with double byte digit length</string>\r\n\r\n    <string name=\"modify_success\">The new EPC has been modified successfully. Please re inventory</string>\r\n    <string name=\"modify_fail\">modify fail</string>\r\n    <string name=\"lock_success\">lock success</string>\r\n    <string name=\"lock_fail\">lock fail</string>\r\n\r\n    <string name=\"kill_success\">kill success</string>\r\n    <string name=\"kill_fail\">kill fail</string>\r\n\r\n    <string name=\"base_settings\">Base settings</string>\r\n    <string name=\"work_freq\">Region:</string>\r\n    <string name=\"power\">Power:</string>\r\n    <string name=\"temperature\">temperature:</string>\r\n    <string name=\"inventory_settings\">Inventory setting</string>\r\n\r\n    <string name=\"query\">query</string>\r\n    <string name=\"q_value\">Q value:</string>\r\n    <string name=\"inventory_type\">target:</string>\r\n    <string name=\"fastid\">FastID</string>\r\n\r\n    <string name=\"query_success\">query success</string>\r\n    <string name=\"query_fail\">query fail</string>\r\n    <string name=\"set_success\">set success</string>\r\n    <string name=\"set_fail\">set fail</string>\r\n\r\n    <string name=\"help\">help</string>\r\n    <string name=\"store\">store</string>\r\n    <string name=\"export_excel_need_permission\">Permissions required for exporting Excel</string>\r\n    <string name=\"firmware\">Firmware version:%s</string>\r\n    <string name=\"soft_version\">Soft version:%s</string>\r\n    <string name=\"version_date\">Date:%s</string>\r\n    <string name=\"about\">About</string>\r\n    <string name=\"help_tips\">\r\n\r\n\r\n    </string>\r\n\r\n\r\n    <!---->\r\n    <string-array name=\"work_freq\">\r\n        <item>China1_920_925</item>\r\n        <item>China2_840_845</item>\r\n        <item>FCC_902_928</item>\r\n        <item>EU_865_867</item>\r\n    </string-array>\r\n\r\n    <!---->\r\n    <string-array name=\"lock_data\">\r\n        <item>Access</item>\r\n        <item>Kill password</item>\r\n        <item>EPC</item>\r\n        <item>TID</item>\r\n        <item>USER</item>\r\n    </string-array>\r\n\r\n    <!--session-->\r\n    <string-array name=\"lock_type\">\r\n        <item>Open</item>\r\n        <item>Lock</item>\r\n        <item>Permanent lock</item>\r\n    </string-array>\r\n\r\n    <!---->\r\n    <string-array name=\"session_arrays\">\r\n        <item>S0</item>\r\n        <item>S1</item>\r\n        <item>S2-Multi_tag</item>\r\n        <item>S3</item>\r\n    </string-array>\r\n\r\n    <!---->\r\n    <string-array name=\"inventory_type_arrays\">\r\n        <item>A</item>\r\n        <item>B</item>\r\n        <item>A|B</item>\r\n    </string-array>\r\n\r\n    <!---->\r\n    <string-array name=\"q_value_arrays\">\r\n        <item>0</item>\r\n        <item>1</item>\r\n        <item>2</item>\r\n        <item>3</item>\r\n        <item>4-Multi_tag</item>\r\n        <item>5</item>\r\n        <item>6</item>\r\n        <item>7</item>\r\n        <item>8</item>\r\n        <item>9</item>\r\n        <item>10</item>\r\n        <item>11</item>\r\n        <item>12</item>\r\n        <item>13</item>\r\n        <item>14</item>\r\n        <item>15</item>\r\n\r\n    </string-array>\r\n\r\n\r\n    <!---->\r\n    <string-array name=\"power_arrays\">\r\n        <item>0</item>\r\n        <item>1</item>\r\n        <item>2</item>\r\n        <item>3</item>\r\n        <item>4</item>\r\n        <item>5</item>\r\n        <item>6</item>\r\n        <item>7</item>\r\n        <item>8</item>\r\n        <item>9</item>\r\n        <item>10</item>\r\n        <item>11</item>\r\n        <item>12</item>\r\n        <item>13</item>\r\n        <item>14</item>\r\n        <item>15</item>\r\n        <item>16</item>\r\n        <item>17</item>\r\n        <item>18</item>\r\n        <item>19</item>\r\n        <item>20</item>\r\n        <item>21</item>\r\n        <item>22</item>\r\n        <item>23</item>\r\n        <item>24</item>\r\n        <item>25</item>\r\n        <item>26</item>\r\n        <item>27</item>\r\n        <item>28</item>\r\n        <item>29</item>\r\n        <item>30</item>\r\n        <item>31</item>\r\n        <item>32</item>\r\n        <item>33</item>\r\n    </string-array>\r\n\r\n    <!---->\r\n    <string-array name=\"gb_membank\">\r\n        <item></item>\r\n        <item></item>\r\n        <item>User0</item>\r\n        <item>User1</item>\r\n        <item>User2</item>\r\n        <item>User3</item>\r\n        <item>User4</item>\r\n        <item>User5</item>\r\n        <item>User6</item>\r\n        <item>User7</item>\r\n        <item>User8</item>\r\n        <item>User9</item>\r\n        <item>User10</item>\r\n        <item>User11</item>\r\n        <item>User12</item>\r\n        <item>User13</item>\r\n        <item>User14</item>\r\n        <item>User15</item>\r\n    </string-array>\r\n\r\n\r\n    <string-array name=\"gb_lock_type\">\r\n        <item>1</item>\r\n        <item></item>\r\n        <item></item>\r\n        <item></item>\r\n        <item></item>\r\n        <item></item>\r\n        <item></item>\r\n    </string-array>\r\n</resources>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/values/strings.xml	(revision 22b012e7872ab10115fa026f2de41ccb7d4908e1)
++++ app/src/main/res/values/strings.xml	(date 1652171249140)
+@@ -1,5 +1,5 @@
+ <resources xmlns:tools="http://schemas.android.com/tools">
+-    <string name="app_name">UHF-G</string>
++    <string name="app_name">UHF-G_com0</string>
+     <string name="navigation_drawer_open">Open navigation drawer</string>
+     <string name="navigation_drawer_close">Close navigation drawer</string>
+     <string name="nav_header_title">Android Studio</string>
+@@ -115,7 +115,12 @@
+ 
+     </string>
+ 
++    <string name="manufacturer">Manufacturer</string>
+ 
++    <string-array name="temp_tags">
++        <item>Yilian tag</item>
++        <item>YueHe tag</item>
++    </string-array>
+     <!---->
+     <string-array name="work_freq">
+         <item>China1_920_925</item>
+Index: app/src/main/res/layout/fragment_temperature_tag.xml
+===================================================================
+--- app/src/main/res/layout/fragment_temperature_tag.xml	(date 1652177440131)
++++ app/src/main/res/layout/fragment_temperature_tag.xml	(date 1652177440131)
+@@ -0,0 +1,34 @@
++<?xml version="1.0" encoding="utf-8"?>
++<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    android:orientation="vertical">
++
++    <LinearLayout
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:layout_margin="@dimen/margin_3dp"
++        android:orientation="horizontal">
++        <TextView
++            android:layout_width="wrap_content"
++            android:layout_height="wrap_content"
++            android:layout_gravity="center"
++            android:text="@string/tag_select"/>
++
++        <Spinner
++            android:id="@+id/manufacturer"
++            android:background="@drawable/spinner_background"
++            android:minHeight="@dimen/min_height_40dp"
++            android:layout_width="match_parent"
++            android:layout_height="wrap_content"
++            android:layout_weight="1" />
++        <CheckBox
++            android:id="@+id/checkbox_filter"
++            android:layout_width="wrap_content"
++            android:layout_height="match_parent"
++            android:checked="true"
++            android:text="@string/filter"/>
++
++    </LinearLayout>
++
++</LinearLayout>
+\ No newline at end of file
